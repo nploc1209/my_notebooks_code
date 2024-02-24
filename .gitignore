@@ -1,9 +1,9 @@
 *
 
 # Allow README.md file
-!*.md
+!**/*.md
 
 # Allow all C++ project file
-!*.cpp
-!*.INP
-!*.OUT
+!**/*.cpp
+!**/*.INP
+!**/*.OUT
