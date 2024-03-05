@@ -5,4 +5,3 @@
 
 # Allow all C++ file
 !*.cpp
-!function_test.cpp
