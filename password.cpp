@@ -14,7 +14,7 @@ bool is_prime[10000000];
 long long sum_digit(long long n) {
     long long sum = 0;
     while (n > 0) {
-        sum += n % 10;
+        sum += n % 10;  // sum = (n % 10) * (n % 10)
         n /= 10;
     }
     return sum;

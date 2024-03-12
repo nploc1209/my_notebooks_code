@@ -20,8 +20,8 @@ int main() {
     freopen(".OUT", "w", stdout);
 
     long long n = 6;
-    bool is_prime[n];
-    for (long long i = 0; i < n; i++) {
+    bool is_prime[n + 1];
+    for (long long i = 0; i <= n; i++) {
         is_prime[i] = true;
     }
     is_prime[0] = false;
