@@ -1,6 +1,6 @@
 /* 
  * Thuat toan: Binary exponentiation
- * Do phuc tap: O(log n)
+ * Do phuc tap: O(log ^b)
  * Y tuong: y_tuong
  * 
  */
